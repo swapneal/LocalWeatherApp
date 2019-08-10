@@ -1,1 +1,16 @@
 <p>current-weather works!</p>
+
+<div>
+  <div>
+    <span> {{ current.city }}, {{ current.country }} </span> <!--{{}} binds the content-->
+  </div>
+
+  <div>
+    <img [src]='current.image'/>     <!--[] binds the property-->
+    <span> {{current.temperature}} </span>
+  </div>
+  <div>
+    <span> {{ current.description }} </span>
+    <!--{{}} binds the content-->
+  </div>
+</div>
