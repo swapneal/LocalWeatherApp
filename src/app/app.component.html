@@ -1,12 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-    LocalCast Weather
-  </h1>
+  <mat-toolbar color="primary">
+    <span> LocalCast Weather</span>
+  </mat-toolbar>
 
   <div>Your City, your forecast, right now!</div>
-
-  <h2>Current Weather</h2>
-  <div>current Weather</div>
-  <app-current-weather style="text-align:left"> </app-current-weather>
+  <div><app-city-search> </app-city-search></div>
+  <mat-card>
+    <h2>Current Weather</h2>
+    <div>current Weather</div>
+    <app-current-weather> </app-current-weather
+  ></mat-card>
+  <mat-card> <app-city-search> </app-city-search></mat-card>
 </div>
