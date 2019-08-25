@@ -12,19 +12,8 @@ export class CurrentWeatherComponent implements OnInit {
   @Input() current: ICurrentWeather;
 
   constructor(private weatherService: WeatherService) {
-    // this.current = {
-    //   city: 'Lynnwood',
-    //   country: 'US',
-    //   date: new Date(),
-    //   image:'',
-    //   temperature: 72,
-    //   description: 'hot'
-    // };
   }
 
   ngOnInit() {
-    // this.weatherService
-    //   .getCurrentWeather("Bethesda", "US")
-    //   .subscribe(data => (this.current = data));
   }
 }
